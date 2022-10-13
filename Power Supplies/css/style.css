@@ -1,0 +1,538 @@
+:root {
+
+    --dk-blue: #02253F;
+   
+    --lt-blue: #2F6A98;
+   
+    --md-blue: #084472;
+   
+    --yellow: #F2D450;
+   
+    --lt-grey: #F5F5F5;
+   
+    --green: #0A9358;
+   
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.125rem;
+}
+
+h2{
+    font-size: 1.625rem;
+}
+
+h3{
+    font-size: 1.875rem;
+}
+
+/*header*/
+
+header{
+    text-transform: uppercase;;
+}
+
+.top-container ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    border: 10px;
+}
+
+.top-container li{
+    background-color: #02253F;
+    width: 25%;
+    margin: 0px 1px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.top-container a{
+    text-decoration: none;
+    color: white;
+}
+
+header img{
+    width: 20%;
+    margin: auto;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+nav li{
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+nav{
+    color: #02253F;
+}
+
+nav ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #02253F;
+}
+
+header li:hover{
+    background-color: var(--green);
+}
+
+/*menu*/
+
+.water{
+    background-image: url(../img/water.jpg);
+    height: calc(100vh - 200px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+.water div {
+    background-color: rgba(241, 241, 241, 0.707);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.menu{
+    background-color: var(--dk-blue);
+    margin: auto;
+    display: flex;
+    padding: 1rem;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.menu li{
+    margin: 0.25rem;
+    background-color: var(--lt-grey);
+    text-align: center;
+    width: 48%;
+    padding: 1rem;
+}
+
+menu li:hover{
+    background-color: var(--dk-blue);
+    border: solid 1px;
+    border-color: var(--lt-grey);
+}
+
+.menu a{
+    text-decoration: none;
+    height:100%;
+    width: 100%;
+    color: var(--dk-blue);
+}
+
+/*main*/
+
+.energy-stats{
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+.energy-stats img{
+    margin: auto;
+}
+
+.learn-more{
+    background-color: var(--dk-blue);
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.learn-more:hover{
+    background-color: var(--lt-blue);
+}
+
+.learn-more a{
+    color: var(--lt-grey);
+}
+
+.numbers{
+    text-align: center;
+    margin: 1rem;
+}
+
+.numbers h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.numbers h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.wrapper
+{
+    background-color: var(--dk-blue);
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--lt-grey);
+    padding: 1rem;
+    align-items: center;
+}
+
+.wrapper ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.wrapper li{
+    padding: 1rem;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: var(--lt-grey);
+}
+
+.wrapper a:hover{
+    color: var(--yellow);
+}
+
+/*community*/
+
+.live{
+    background-image: url(../img/plant-wall.jpg);
+    height: calc(100vh - 200px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.live div {
+    background-color: rgba(241, 241, 241, 0.707);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.community{
+    padding: 1rem;
+}
+
+.community h2{
+    text-align: center;
+}
+
+.community-cards div {
+    height: 305px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.community-cards a {
+    background-color: var(--green);
+    color: var(--lt-grey);
+    padding: 1rem;
+}
+
+.community-cards a:hover{
+    background-color: var(--dk-blue);
+}
+
+.community-cards div:first-of-type {
+    background-image: url("../img/community-events.jpg");
+}
+.community-cards div:nth-of-type(2) {
+    background-image: url("../img/community-investments.jpg");
+}
+.community-cards div:last-of-type {
+    background-image: url("../img/community-scholarship.jpg");
+}
+
+.investments{
+    background-image: url(../img/puzzle.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+
+}
+
+.investments div{
+    align-items: center;
+    background-color: rgba(241, 241, 241, 0.707);
+    padding: 1rem;
+}
+
+.investments a{
+    text-decoration: none;
+    color: var(--dk-blue);
+}
+
+/*your home*/
+
+.responsibility{
+    background-image: url(../img/aerial-view-houses.jpg);
+    height: calc(100vh - 200px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.responsibility div {
+    background-color: rgba(241, 241, 241, 0.707);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+
+.home-links{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home-cards div {
+    height: 305px;
+    width: 48%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+    
+}
+.home-cards a {
+    background-color: var(--green);
+    color: var(--lt-grey);
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.home-cards a:hover{
+    background-color: var(--dk-blue);
+}
+
+
+.home-cards div:first-of-type {
+    background-image: url("../img/meter-1.jpg");
+}
+.home-cards div:nth-of-type(2) {
+    background-image: url("../img/family.jpg");
+}
+.home-cards div:nth-of-type(3) {
+    background-image: url("../img/safety.jpg");
+}
+.home-cards div:nth-of-type(4) {
+    background-image: url("../img/credit-card.jpg");
+}
+.home-cards div:nth-of-type(5) {
+    background-image: url("../img/living-room.jpg");
+}
+.home-cards div:last-of-type {
+    background-image: url("../img/couple.jpg");
+}
+
+.right-product
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.right-product img{
+    margin: auto;
+}
+
+.right-product h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.warm-home
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.warm-home h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.warm-home img{
+    margin: auto;
+}
+
+.help{
+    background-color: var(--lt-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.help-box div{
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem ;
+    align-items: center;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 25%)
+}
+
+section a{
+    text-decoration: none;
+    color: var(--dk-blue);
+}
+
+.help h2{
+    text-transform: uppercase;
+}
+
+.help-box a{
+    text-decoration: none;
+}
+
+/*900px*/
+
+@media (min-width:900px){
+
+    nav{
+        display: flex;
+        flex: wrap;
+    }
+
+    nav ul{
+        flex-wrap: nowrap;
+    }
+
+    .menu li{
+        width:30%;
+    }
+
+    .energy{
+        display: flex;
+        align-items: stretch;
+
+    }
+
+    .numbers{
+        background-color: var(--lt-grey);
+        padding: 1rem;
+        border: solid 1px;
+    }
+
+    .energy-stats{
+        border: solid 1px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper{
+        justify-content: space-between;
+
+    }
+
+    .community-links{
+        display: flex;
+        justify-content: space-evenly;   
+    }
+
+    .community-cards div{
+        width: 30%;
+        justify-content: flex-end;
+    }
+
+    .text-box{
+        display: flex;
+    }
+
+    .text-box div{
+        margin: 1rem;
+    }
+
+    .help-box{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .help-box div{
+        width:30%;
+    }
+
+}
+
+/*1200px*/
+
+@media(min-width:1200px){
+
+}
+
+
+
+
+
